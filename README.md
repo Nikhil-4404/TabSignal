@@ -6,18 +6,18 @@ TabSignal uses a browser extension and a small Windows companion. You choose the
 
 ## Release status
 
-**0.4.4 is an early GitHub pre-release for Windows x64.** Automated regression and package checks passed. Live testing of this public build in Chrome/Brave with Discord, and clean Windows installation/upgrade/removal, remain incomplete. Please report issues. A Chrome Web Store listing is not required for this release.
+**0.4.5 is the GitHub release candidate for Windows x64.** It fixes an installer check that could reject Windows application permissions. All 62 regression tests, 22 isolated packaged upgrade checks and 16 artifact checks passed. The owner reported the public 0.4.4 setup and Discord activity passed in Chrome and Brave; its browser sharing/media code is unchanged in 0.4.5. The updated-installer check and clean Windows testing remain incomplete. A Chrome Web Store listing is not required for this release.
 
 This repository is the public download and setup home. Personal development copies and owner-only preview packages are not public releases and are not hosted here.
 
 ## Downloads
 
-Download [v0.4.4 and its setup guide](https://github.com/Nikhil-4404/TabSignal/releases/tag/v0.4.4):
+Download [v0.4.5 and its setup guide](https://github.com/Nikhil-4404/TabSignal/releases/tag/v0.4.5):
 
-- `TabSignal-Extension-0.4.4-public.zip` — browser extension.
-- `TabSignal-Companion-0.4.4-public-win-x64.exe` — one-time Windows companion setup.
-- `README-0.4.4-public.txt` — installation/update instructions.
-- `SHA256SUMS-0.4.4-public.txt` — download integrity checksums.
+- `TabSignal-Extension-0.4.5-public.zip` — browser extension.
+- `TabSignal-Companion-0.4.5-public-win-x64.exe` — one-time Windows companion setup.
+- `README-0.4.5-public.txt` — installation/update instructions.
+- `SHA256SUMS-0.4.5-public.txt` — download integrity checksums.
 
 Use the named extension ZIP above. GitHub's automatic **Source code** archives are not the extension download. Checksums detect changed files; they do not independently authenticate a download.
 
@@ -45,3 +45,9 @@ Sharing starts off. Only enabled websites are eligible. Titles may contain perso
 ## Feedback
 
 Use [GitHub Issues](https://github.com/Nikhil-4404/TabSignal/issues) to report problems. Do not include passwords, tokens or private browsing details.
+
+## Source and builds
+
+Development source, tests and build scripts are in [src/tabsignal](src/tabsignal). Its defaults use the approved public application with a separate development extension identity. Public builds inject the fixed public application and stable release extension key into both components.
+
+Maintainers need Windows, Windows PowerShell 5.1, the .NET Framework compiler, and patched Node.js 22.23.4 or 24.22.1 in the corresponding LTS line. There are no npm dependencies. From `src/tabsignal`, run `npm test`, `npm run build:public`, then `npm run verify:public`. Outputs go to `src/releases`. Normal users download the ready-made files above and do not need these development tools.

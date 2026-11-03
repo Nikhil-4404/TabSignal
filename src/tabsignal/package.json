@@ -1,0 +1,14 @@
+{
+  "name": "tabsignal",
+  "version": "0.4.5",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "^22.23.4 || ^24.22.1" },
+  "scripts": {
+    "test": "node --test",
+    "build:preview": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File packaging/build.ps1",
+    "verify:preview": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File packaging/verify.ps1",
+    "build:public": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File packaging/build.ps1 -ConfigPath packaging/release.public.json",
+    "verify:public": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File packaging/verify.ps1 -ConfigPath packaging/release.public.json"
+  }
+}

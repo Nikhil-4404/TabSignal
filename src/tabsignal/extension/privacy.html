@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TabSignal · Privacy</title>
+  <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">TabSignal · Updated 24 October 2026</p>
+    <h1>You choose what you share.</h1>
+    <p>Sharing starts off. TabSignal publishes activity only for the active, normal browser tab when its exact hostname is on your list and both global and website sharing are enabled. Switching to Discord keeps the last eligible browser tab shared. Private windows, restricted pages and unlisted websites stay private.</p>
+    <h2>What reaches Discord</h2>
+    <p>Basic activity includes the page title, hostname and a website icon. Titles can contain personal information, so allow websites you are comfortable showing on your Discord profile. Optional media access can add the video title, channel or series, public artwork, player timing and activity buttons. Discord controls who sees activity through its own settings and controls the final profile layout.</p>
+    <p>Activity buttons may include a public page path and an allowed YouTube video or HiAnime episode identifier. Other query parameters and URL fragments are removed. Raw embedded-player URLs stay in the browser. Turning off Artwork, Playback progress or Activity buttons removes those fields from the published activity.</p>
+    <h2>Website and player access</h2>
+    <p>Adding a hostname does not grant page-reading access. Media access is optional and requested separately for each named website or embedded player. It is used only while an allowed top-level page is eligible and Media details is on. The reader inspects page metadata, relevant visible players and bounded frame sources; it does not read cookies, passwords or page storage. Browser grants remain until revoked. Removing a website stops sharing and attempts to revoke that website’s HTTP and HTTPS grants. Additional player grants can be removed in the browser’s extension settings.</p>
+    <h2>Images and outside services</h2>
+    <p>When artwork is enabled, eligible website hostnames are used in requests to Bitwarden’s website-icon service. Media previews can request the page’s validated public artwork URL. Image URLs have query parameters and fragments removed and previews send no referrer. Requests can still reveal the requested image path and network information to its provider. Discord may fetch and cache the published images and links under its own policies.</p>
+    <h2>What stays on this computer</h2>
+    <p>Your website list, preferences and the configured Discord Application ID are saved in browser local storage. TabSignal has no browsing-history database, analytics service, user account or cloud backend. The Windows companion receives eligible activity through the browser’s native connection and sends it to Discord desktop through local IPC. Activity is held in memory; the companion does not write activity logs.</p>
+    <h2>Stopping and removing</h2>
+    <p>Disable Sharing, pause or remove a website, or leave an allowed page to clear activity. Closing the browser closes the companion connection. A watchdog clears activity if updates stop; Discord controls the final removal timing. Remove the extension to delete its browser settings. Windows Settings → Apps can remove the separately installed companion. No startup service is installed. Uninstalling the companion does not remove the extension or its chosen websites.</p>
+    <h2>Links</h2>
+    <p><a href="https://discord.com/privacy" target="_blank" rel="noreferrer">Discord privacy policy</a> · <a href="https://bitwarden.com/help/website-icons/" target="_blank" rel="noreferrer">Bitwarden website icons</a></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,8 @@
+:root { color-scheme: dark; font: 16px/1.7 "Segoe UI", sans-serif; background: #0c1422; color: #d9e4ef; }
+body { margin: 0; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; }
+.eyebrow { color: #86cdd8; font-size: 13px; }
+h1 { color: #f4f7fb; font-size: clamp(28px, 5vw, 42px); line-height: 1.2; }
+h2 { color: #f4f7fb; font-size: 20px; margin-top: 32px; }
+a { color: #8bdce9; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid #68dfed; outline-offset: 4px; }

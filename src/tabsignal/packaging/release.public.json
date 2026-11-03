@@ -1,0 +1,13 @@
+{
+  "channel": "public",
+  "applicationId": "1563140076089639053",
+  "applicationOwnershipVerified": true,
+  "companionDownloadUrl": "https://github.com/Nikhil-4404/TabSignal/releases",
+  "architecture": "x64",
+  "nodeVersion": "22.23.4",
+  "nodeArchiveSha256": "cbc74b5e0982c9dbb41525fd8fb5dcd32fbee237863f7829072f4639a1ce5f20",
+  "extensionIds": [
+    "lghkdmhokjgifihfccohclonhjhhpmce"
+  ],
+  "publicExtensionKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArNu7k8AAkkNIPBJRuYGrY1ybIGQxgtFwtxB+aJHMMBkD3zJ9zc0P5vA331JvYWuQOwMpibuUvUS7jgMMm7oDxpyDLFj6CneLxVYCMdybL2pOZ+0GoizsFwxiDifjuqO0hKcM8IYlZyoLEn70GAkbGkQ741y3CTYqlpI2BtMWsXUgAZm/+vGBczy6TpfXklxksKb+g7ipYc/pwlVnjyNsulhazVah3/RqsSe+ksq4YcWWh/BKWKfVuXbVut2+5T9OHClO+tJS/12N2P/VUEowbVqbY+LRZ2UL/4jpF9YBALXmBCU4W6yTZf/KRyAG5KmB1sr9p5zY8g61LceRNz0fRwIDAQAB"
+}

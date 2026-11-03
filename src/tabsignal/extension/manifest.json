@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TabSignal",
+  "description": "Share your active website on Discord, only on sites you allow.",
+  "version": "0.4.5",
+  "icons": { "128": "assets/tabsignal-icon-128.png" },
+  "minimum_chrome_version": "120",
+  "permissions": ["tabs", "storage", "nativeMessaging", "alarms"],
+  "optional_permissions": ["scripting", "webNavigation"],
+  "optional_host_permissions": ["https://*/*", "http://*/*"],
+  "incognito": "not_allowed",
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "TabSignal", "default_popup": "popup.html", "default_icon": "assets/tabsignal-icon-128.png" }
+}

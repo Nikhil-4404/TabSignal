@@ -1,0 +1,13 @@
+{
+  "channel": "preview",
+  "applicationId": "1563140076089639053",
+  "applicationOwnershipVerified": false,
+  "companionDownloadUrl": "",
+  "architecture": "x64",
+  "nodeVersion": "22.23.4",
+  "nodeArchiveSha256": "cbc74b5e0982c9dbb41525fd8fb5dcd32fbee237863f7829072f4639a1ce5f20",
+  "previewExtensionKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuUu3+wXEptVX26GbfsD5D7LjbfBdOPsYbt0CYELztBETxcNX3DwsHfX+IWElwN1yUxnKzr/L1sNDY6tLc9vZ3wzvW2dvocbFTNbtnpjZw28x75Y3WgDvTF8UolXL6VqF+hSHeFUXNAs/wmq1PdhSn5GwJvnrNL0iAx8kLKTVdk6JevMMGiAEQ9K+ZRvLFmw8eGCOjLh/294dMa6bvubL1XV5LI1pFlXoNzhdZIM7IyqxFZcInL5Gd0aHzb6DrihDhIs+lx0SqTFLK05IThVDSv4bDjy+n1L/W8swRthqdlVvxJwVtwiE/hYbL9kjvU1ovKFOcNfrm2Yn8QAAO6/MkQIDAQAB",
+  "extensionIds": [
+    "kgnnlknoflclpbdialcokaklhpncpehn"
+  ]
+}
